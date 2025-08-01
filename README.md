@@ -1,73 +1,71 @@
-# Welcome to your Lovable project
+# CraftyBella WordPress Theme
 
-## Project info
+A pixel-perfect WordPress theme based on the CraftyBella.in website, converted from React to PHP.
+
+## Installation
+
+1. Copy all theme files to your WordPress themes directory: `/wp-content/themes/craftybella/`
+2. Copy the actual image files from the React project to the `assets/` directory
+3. Activate the theme in WordPress Admin → Appearance → Themes
+4. Customize the theme through WordPress Customizer
+
+## Features
+
+- Pixel-perfect clone of CraftyBella.in homepage
+- Responsive design using Tailwind CSS
+- Product showcase sections
+- Newsletter subscription
+- SEO optimized
+- WordPress standard compliant
+
+## File Structure
+
+```
+craftybella/
+├── style.css              # Main stylesheet with theme info
+├── functions.php          # Theme functionality
+├── index.php             # Main template
+├── header.php            # Header template
+├── footer.php            # Footer template
+├── js/
+│   └── main.js           # Custom JavaScript
+├── assets/               # Image assets
+│   ├── earrings-set.jpg
+│   ├── gift-hamper.jpg
+│   ├── hero-banner.jpg
+│   ├── jewelry-collection.jpg
+│   └── jhumka-sample.jpg
+└── template-parts/       # Reusable template parts
+    ├── announcement-bar.php
+    ├── promo-banner.php
+    ├── category-navigation.php
+    ├── hero-banner.php
+    ├── product-section.php
+    └── newsletter.php
+```
+
+## Customization
+
+- Product data is stored in `functions.php` in the `get_craftybella_products()` function
+- Colors and styling can be modified in `style.css`
+- Layout changes can be made in the respective template files
+
+## Requirements
+
+- WordPress 5.0+
+- PHP 7.4+
+- No additional plugins required (theme includes all functionality)
+
+## Notes
+
+- Images need to be copied manually from the React project
+- The theme uses Tailwind CSS via CDN for easy maintenance
+- Product data is hardcoded - in production, you might want to use WooCommerce or custom post types
+
+---
+
+## Original React Project Info
 
 **URL**: https://lovable.dev/projects/0a6ab804-dab8-4906-8e9c-3ab98baa48dc
 
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/0a6ab804-dab8-4906-8e9c-3ab98baa48dc) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/0a6ab804-dab8-4906-8e9c-3ab98baa48dc) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This WordPress theme was converted from the original React project built with Vite, TypeScript, React, shadcn-ui, and Tailwind CSS.
