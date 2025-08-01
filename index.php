@@ -14,7 +14,7 @@ get_header(); ?>
     get_template_part('template-parts/hero-banner');
     
     // Product sections
-    $products = get_craftybella_products();
+    $products = get_ratnaasya_products();
     
     // Rakshabandhan section
     set_query_var('section_title', 'Rakshabandhan');

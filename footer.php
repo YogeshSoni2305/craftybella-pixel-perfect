@@ -3,9 +3,9 @@
         <div class="grid md:grid-cols-4 gap-8">
             <!-- Brand Section -->
             <div class="md:col-span-1">
-                <h3 class="text-2xl font-bold text-yellow-500 mb-4">Craftybella</h3>
+                <h3 class="text-2xl font-bold text-yellow-500 mb-4">RATNAASYA.IN</h3>
                 <p class="text-gray-300 mb-4">
-                    Your one-stop destination for beautiful traditional and contemporary jewelry.
+                    Your one-stop destination for exquisite traditional and contemporary jewelry designs.
                 </p>
                 <div class="flex space-x-4">
                     <a href="#" class="text-gray-300 hover:text-yellow-500 transition-colors">
@@ -67,7 +67,7 @@
 
         <div class="border-t border-gray-600 mt-8 pt-8 text-center">
             <p class="text-gray-400">
-                © 2024 Craftybella. All rights reserved. | COD Available All Over INDIA
+                © 2024 RATNAASYA.IN. All rights reserved. | COD Available All Over INDIA
             </p>
         </div>
     </div>

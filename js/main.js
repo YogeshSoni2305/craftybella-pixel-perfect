@@ -1,5 +1,5 @@
 /**
- * CraftyBella Theme JavaScript
+ * RATNAASYA Theme JavaScript
  */
 
 (function($) {

@@ -15,7 +15,7 @@
             <!-- Logo -->
             <div class="flex-shrink-0">
                 <h1 class="text-2xl font-bold text-yellow-500 font-bold tracking-wider" style="font-family: 'Poppins', sans-serif;">
-                    <a href="<?php echo home_url(); ?>">Craftybella</a>
+                    <a href="<?php echo home_url(); ?>">RATNAASYA.IN</a>
                 </h1>
             </div>
 
